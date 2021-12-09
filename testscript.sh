@@ -4,7 +4,7 @@ PASSWORD=$2
 echo "starting mysql database"
 mysql --user=root --password=root <<MY_QUERY
 USE db_test;
-INSERT INTO tbl_test1 (fname) VALUES ('test1');
+INSERT INTO tbl_test1 (fname) VALUES ('test2');
 MY_QUERY
  2>null
 echo "Backup has been done"
