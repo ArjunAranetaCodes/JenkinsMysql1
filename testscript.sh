@@ -3,7 +3,7 @@ HOST_IP=$1
 PASSWORD=$2
 echo "starting mysql database"
 mysql --user=root --password=root <<MY_QUERY
-USE db_test
+USE db_test;
 INSERT INTO tbl_test1 (fname) VALUES ('test1');
 MY_QUERY
  2>null
